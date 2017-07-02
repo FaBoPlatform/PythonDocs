@@ -37,8 +37,8 @@ Browserで、localhost:8081に接続します。
 {%youtube%}ThdjMFOPDkw{%endyoutube%}
 
 ```
-print "HelloWorld"
+print "Hello World"
 ```
 
-{%youtube%}ThdjMFOPDkw{%endyoutube%}
+{%youtube%}ZIcjCXPyAUI{%endyoutube%}
 
