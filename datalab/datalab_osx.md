@@ -30,34 +30,13 @@ gcr.io/cloud-datalab/datalab:local
 |-v "${HOME}/datalab:/content"|OSX上の${HOME}/datalabフォルダとDocker内の/contantを連携する|
 |gcr.io/cloud-datalab/datalab:local|起動するDocker Image|
 
-{%youtube%}ThdjMFOPDkw{%endyoutube%}
-
-## Datalabにアクセス
-
 Browserで、localhost:8081に接続します。
 
 ![](/img/datalab001.png)
 
-## Hello World
+{%youtube%}ThdjMFOPDkw{%endyoutube%}
 
-![](/img/datalab002.png)
-
-![](/img/datalab003.png)
-
-![](/img/datalab004.png)
-
-![](/img/datalab005.png)
-
-![](/img/datalab006.png)
-
-```python
-import matplotlib.pyplot as plt
-import numpy as np
-%matplotlib inline
-
-x = np.arange(0, 10, 0.1)
-y = np.sin(x)
-
-plt.plot(x,y)
-plt.show()
 ```
+print "HelloWorld"
+```
+
