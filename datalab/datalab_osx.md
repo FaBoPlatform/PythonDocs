@@ -23,13 +23,15 @@ $ mkdir -p ./datalab
 $ docker run -it -p 127.0.0.1:8081:8080 -p 6006:6006 -v "${HOME}/datalab:/content" \
 gcr.io/cloud-datalab/datalab:local
 ```
-
 |引数|意味|
 |:--|:--|
 |-p 127.0.0.1:8081:8080 | Datalabに8081ポートでアクセスできるようにする|
 |-p 6006:6006|TensorBoardに6006ポートでアクセスできるようにする|
 |-v "${HOME}/datalab:/content"|OSX上の${HOME}/datalabフォルダとDocker内の/contantを連携する|
 |gcr.io/cloud-datalab/datalab:local|起動するDocker Image|
+
+{% youtube src="https://www.youtube.com/watch?v=9bZkp7q19f0" %}{% endyoutube %}
+
 
 ## Datalabにアクセス
 
