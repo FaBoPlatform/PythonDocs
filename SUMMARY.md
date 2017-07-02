@@ -5,6 +5,7 @@
 * Python
     * [101.文字列を出力](python/101_print.md)
     * [102.変数](python/102_variable.md)
+    * [103.if文](python/103_if.md)
 * Numpy
     * [201.配列から行列を作る](numpy/numpy_arrmat.md)
     * [202.ゼロのはいった行列を作る](numpy/numpy_zerotensor.md)
