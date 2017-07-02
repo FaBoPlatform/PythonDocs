@@ -30,7 +30,7 @@ gcr.io/cloud-datalab/datalab:local
 |-v "${HOME}/datalab:/content"|OSX上の${HOME}/datalabフォルダとDocker内の/contantを連携する|
 |gcr.io/cloud-datalab/datalab:local|起動するDocker Image|
 
-{% youtube src="https://www.youtube.com/edit?o=U&video_id=ThdjMFOPDkw" %}{% endyoutube %}
+{% youtube src="https://www.youtube.com/watch?v=ThdjMFOPDkw" %}{% endyoutube %}
 
 
 
