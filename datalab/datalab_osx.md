@@ -32,8 +32,6 @@ gcr.io/cloud-datalab/datalab:local
 
 {% youtube src="https://www.youtube.com/watch?v=ThdjMFOPDkw" %}{% endyoutube %}
 
-
-
 ## Datalabにアクセス
 
 Browserで、localhost:8081に接続します。
