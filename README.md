@@ -1,8 +1,8 @@
-# TensorFlowDocs
+# PythonDocs
 
 # 本ドキュメントについて
 
-機械学習のプログラム学習用のドキュメントになっています。
+Python/Numpyの学習用の教材になっています。
 
 # 対象レベル
 
@@ -11,4 +11,4 @@ UNIX系OSに慣れている
 
 # 使用フレームワーク
 
-TensorFlow
+Numpy

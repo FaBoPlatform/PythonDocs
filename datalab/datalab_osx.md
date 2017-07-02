@@ -40,3 +40,5 @@ Browserで、localhost:8081に接続します。
 print "HelloWorld"
 ```
 
+{%youtube%}ThdjMFOPDkw{%endyoutube%}
+
