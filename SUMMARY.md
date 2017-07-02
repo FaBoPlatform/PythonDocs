@@ -4,6 +4,7 @@
     * [002.Datalabの環境整備(Win)](datalab/datalab_win.md)
 * Python
     * [101.文字列を出力](python/101_print.md)
+    * [102.変数](python/102_variable.md)
 * Numpy
     * [201.配列から行列を作る](numpy/numpy_arrmat.md)
     * [202.ゼロのはいった行列を作る](numpy/numpy_zerotensor.md)
@@ -18,7 +19,6 @@
     * [211.CSVファイルの読み込み・保存](numpy/numpy012.md)
     * [212.Numpyオブジェクトの型・次元数・サイズ](numpy/numpy013.md)
     * [213.平均・標準偏差](numpy/numpy014.md)
-
     * [214.ユニバーサル関数](numpy/numpy015.md)
     * [215.ソート](numpy/numpy_sort.md)
     * [216.集合関数](numpy/numpy_set_func.md)
