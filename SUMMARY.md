@@ -1,7 +1,10 @@
 * [はじめに](README.md)
+* 開発環境(TensorFlow Hub編)
+    * [001.TensorFlowの環境整備(OSX)](tensorflow/osx.md)
+    * [002.TensorFlowの環境整備(Win)](tensorflow/win.md)
 * 開発環境(Datalab編)
-    * [001.Datalabの環境整備(OSX)](datalab/datalab_osx.md)
-    * [002.Datalabの環境整備(Win)](datalab/datalab_win.md)
+    * [003.Datalabの環境整備(OSX)](datalab/datalab_osx.md)
+    * [004.Datalabの環境整備(Win)](datalab/datalab_win.md)
 * Python
     * [101.文字列を出力](python/101_print.md)
     * [102.変数](python/102_variable.md)
