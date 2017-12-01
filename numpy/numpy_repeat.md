@@ -8,15 +8,15 @@ import numpy as np
 
 # 配列の各要素を4つずつ並べる
 x = np.array([3,6,9]).repeat(4)
-print x
+print(x)
 
 # 配列の内容を3つ並べる
 y = np.tile([7,2,4], 3)
-print y
+print(y)
 
 # 配列の内容を2x2で並べる
 z = np.tile([7,2,4], (2,2))
-print z
+print(z)
 ```
 
 実行結果

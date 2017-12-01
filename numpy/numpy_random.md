@@ -17,22 +17,22 @@ import numpy as np
 
 # 二項分布に従う乱数
 binomial = np.random.binomial(10, 0.5, (2,2))
-print binomial
+print(binomial)
 # 正規分布に従う乱数
 normal = np.random.normal(0, 1, (2,2))
-print normal
+print(normal)
 # ベータ分布に従う乱数
 beta = np.random.beta(1, 1, (2,2))
-print beta
+print(beta)
 # カイ二乗分布に従う乱数
 chisquare = np.random.chisquare(1, (2,2))
-print chisquare
+print(chisquare)
 # ガンマ分布
 gamma = np.random.gamma(2, 1, (2,2))
-print gamma
+print(gamma)
 # [0,1)の一様分布
 uniform = np.random.uniform(0, 1, (2,2))
-print uniform
+print(uniform)
 ```
 
 実行結果

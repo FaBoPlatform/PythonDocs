@@ -22,30 +22,30 @@ import numpy as np
 
 # [ 1.  2.  3.]
 x = np.arange(1.0, 4.0)
-print x
+print(x)
 
 # ベクトルのノルム(距離)
-print np.linalg.norm(x)
+print(np.linalg.norm(x))
 
 # ベクトルを対角行列にする
 diag_x = np.diag(x)
 
 # 行列式
-print np.linalg.det(diag_x)
+print(np.linalg.det(diag_x))
 
 # 逆行列
-print np.linalg.inv(diag_x)
+print(np.linalg.inv(diag_x))
 
 # 行列の内積
 # 3x3単位行列
 e = np.eye(3)
-print np.dot(diag_x, e)
+print(np.dot(diag_x, e))
 
 # 対角和
-print np.trace(diag_x)
+print(np.trace(diag_x))
 
 # 固有値、固有ベクトル
-print np.linalg.eig(diag_x)
+print(np.linalg.eig(diag_x))
 
 # 連立方程式の解
 # 2x+y+z = 15
@@ -55,7 +55,7 @@ print np.linalg.eig(diag_x)
 # 薩摩順吉, 四ツ谷晶二, "キーポイント線形代数" p.2より
 a = np.array([[2,1,1],[4,6,3],[8,8,9]])
 b = np.array([[15],[41],[83]])
-print np.linalg.solve(a, b)
+print(np.linalg.solve(a, b))
 ```
 
 実行結果

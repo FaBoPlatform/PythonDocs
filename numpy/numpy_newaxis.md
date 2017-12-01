@@ -7,11 +7,11 @@ Sample
 import numpy as np
 
 x = np.arange(4)
-print x
+print(x)
 # 次元数を増やす
-print x[np.newaxis,:]
+print(x[np.newaxis,:])
 # 縦方向に次元数を増やす
-print x[:,np.newaxis]
+print(x[:,np.newaxis])
 ```
 
 実行結果

@@ -9,7 +9,7 @@ import numpy as np
 
 x = np.random.randn(10, 2)
 
-print x
+print(x)
 ```
 
 出力結果
@@ -35,8 +35,8 @@ import numpy as np
 
 x = np.random.randn(5000, 2)
 
-print np.average(x)
-print np.std(x)
+print(np.average(x))
+print(np.std(x))
 ```
 
 出力結果
