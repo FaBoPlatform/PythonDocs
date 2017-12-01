@@ -11,15 +11,13 @@ Datalabは、Cloud SDKを経由して、GCPのプロジェクトと連携が可�
 $ gcloud projects list
 ```
 
+## Dockerのインストール
+
+[Docker for Windows のインストール](http://docs.docker.jp/windows/step_one.html#)を参考にDocker for Windowsをインストールする。
+
 ## Datalabの起動
 
-下記はOS X用。Windows用のDocker設定は、[https://cloud.google.com/datalab/docs/quickstarts/quickstart-local](https://cloud.google.com/datalab/docs/quickstarts/quickstart-local)を参照。
-
-[Dockerのインストール]
-
-[Docker公式サイト](https://www.docker.com/) で Get Started を選択、次にDownload Docker for Macを選択し本体をダウンロードする。ダウンロード終了後インストールを行い、終了後に表示されるアイコンをクリックすることでDockerを立ち上げる。その後以下のどちらかでDatalabを起動する。
-
-[OS Xで実行:プロジェクトIDを指定]
+[プロジェクトIDを指定]
 ```shell
 $ cd ~
 $ mkdir -p ./datalab
@@ -28,7 +26,7 @@ $ docker run -it -p 127.0.0.1:8081:8080 -p 6006:6006 -v "${HOME}/datalab:/conten
 gcr.io/cloud-datalab/datalab:local
 ```
 
-[OS Xで実行:プロジェクトIDを未指定]
+[プロジェクトIDを未指定]
 ```shell
 $ cd ~
 $ mkdir -p ./datalab
