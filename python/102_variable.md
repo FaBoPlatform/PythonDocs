@@ -5,13 +5,13 @@ datalab/notebooksに移動し、Notebooksを新規作成し、変数のサンプ
 ```python
 value = 1
 
-print value
+print(value)
 ```
 
 ```python
 value = "Test"
 
-print value
+print(value)
 ```
 
 ```python
@@ -19,7 +19,7 @@ a = 10
 b = 5
 c = a + b
 
-print c
+print(c)
 ```
 
 {%youtube%}YRTFZeI6NKk{%endyoutube%}
