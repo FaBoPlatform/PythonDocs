@@ -33,9 +33,8 @@ gcr.io/cloud-datalab/datalab:local
 Browserで、localhost:8081に接続します。
 
 ![](/img/datalab001.png)
-{% youtube src="https://www.youtube.com/watch?v=9bZkp7q19f0" %}{% endyoutube %}
 
-{% youtube src="https://www.youtube.com/watch?v=ThdjMFOPDkw" %} {% endyoutube %}
+{%youtube%}ThdjMFOPDkw{%endyoutube%}
 
 ```
 print "Hello World"
